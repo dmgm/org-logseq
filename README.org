@@ -32,7 +32,7 @@ Org-logseq package is not on MELPA yet. Currently, the easiest way to install or
 - straight
   #+begin_src emacs-lisp :tangle yes
   (use-package org-logseq
-      :straight (org-logseq :fetcher github :repo "llcc/org-logseq" :files ("*"))
+      :straight (org-logseq :type git :host github :repo "llcc/org-logseq" :files ("*"))
       :custom (org-logseq-dir "~/logseq"))
   #+end_src  
   
